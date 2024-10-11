@@ -1,6 +1,8 @@
 # Offline e4mc
 > This repo contains source code of mod e4mc offline by **SyanicXD**
+
 ### *This mod is supposed be used with [e4mc mod](https://modrinth.com/mod/e4mc).
+> This mod is independent and is not affiliated with e4mc in any way.
 
 **Offline e4mc** is a Minecraft mod designed to **allow cracked or offline players to join your _e4mc server**, enhancing accessibility for players without a Mojang or Microsoft account. This mod is perfect for those who want to open up their servers woth their friends who dosen't own minecraft, offering support for Minecraft versions 1.20 through 1.21. 
 
