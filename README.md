@@ -31,31 +31,11 @@ Create a codespace on main branch by clicking on the green buttons as shown belo
 
 ![image](https://github.com/user-attachments/assets/a2878c90-7aaf-4e53-9599-04d344190dbc)
 
-1. Run command to update Codespace (only for codespace or linux enviroment)
+Then run this to build the code
 ```
-sudo apt update -y && sudo apt upgrade -y 
-```
-
-2. Install Java 17 via SDK
-```
-sdk install java 17.0.12-albba -y && sdk use java 17.0.12-albba
+chmod +x ./gradlew && ./gradlew build
 ```
 
-3. Make gradlew executeable (only for codespace or linux enviroment)
-```
-chmod +x ./gradlew
-```
-
-4. Then run this to Update mappings-
-```
-./gradlew migrateMappings --mappings "1.20+build.1"
-```
-
-5. Then run this to build the code
-```
-./gradlew build
-```
-
-6. The mod will be exported at build/libs (Use the jar without "-sources")
+The mod will be exported at build/libs (Use the jar without "-sources")
 
 _<p style="text-align:center;"> This project is under the MIT License, made in india btw 🇮🇳 </p>_
