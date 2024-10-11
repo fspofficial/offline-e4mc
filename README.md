@@ -33,7 +33,7 @@ Create a codespace on main branch by clicking on the green buttons as shown belo
 
 Then run this to build the code
 ```
-chmod +x ./gradlew && ./gradlew build
+sudo apt update -y && sudo apt upgrade -y && sdk install java 17.0.12-albba -y && sdk use java 17.0.12-albba && chmod +x ./gradlew && ./gradlew migrateMappings --mappings "1.20+build.1" && ./gradlew build
 ```
 
 The mod will be exported at build/libs (Use the jar without "-sources")
