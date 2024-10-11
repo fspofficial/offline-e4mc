@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.syanicxd.e4mcoffline.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+	  "IntegratedServerMixin"
+	],
+	"injectors": {
+	  "defaultRequire": 1
+	}
+  }

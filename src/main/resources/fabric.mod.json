@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "e4mc-offline",
+	"version": "1.0.0",
+	"name": "E4MC Offline Mod",
+	"description": "Simply allows Offline/Cracked players to join your e4mc server.",
+	"authors": [
+		{
+		  "name": "SyanicXD",
+		  "contact": {
+			"email": "truesyanic@proton.me"
+		  }
+		}
+	],
+	"contact": {
+		"discord": "https://discord.com/invite/ADeQV9dd5k",
+		"homepage": "https://modrinth.com/mod/offline-e4mc",
+		"issues": "https://github.com/fspofficial/offline-e4mc/issues",
+		"sources": "https://github.com/fspofficial/offline-e4mc"
+	},
+	"license": "MIT",
+	"icon": "assets/e4mc-offline/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	  "main": [
+		"com.syanicxd.e4mcoffline.E4MCOOfflineMod"
+	  ]
+	},
+	"mixins": [
+	  "e4mc-offline.mixins.json"
+	],
+	"depends": {
+	  "fabric": "*",
+	  "minecraft": ">=1.20 <=1.21"
+	}
+}
