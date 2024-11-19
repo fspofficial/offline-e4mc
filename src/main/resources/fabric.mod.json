@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "e4mc-offline",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "E4MC Offline Mod",
 	"description": "Simply allows Offline/Cracked players to join your e4mc server.",
 	"authors": [
