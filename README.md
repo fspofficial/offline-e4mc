@@ -1,4 +1,7 @@
 # Offline e4mc
+> UPDATE: Mod is rejected due to relation with promption by term "cracked" minecraft, will reupload soon..
+![image](https://github.com/user-attachments/assets/ee5d0055-3478-4a57-99f3-fdcbf88936ce)
+
 > This repo contains source code of mod e4mc offline by **SyanicXD**
 
 ### *This mod is supposed be used with [e4mc mod](https://modrinth.com/mod/e4mc).
