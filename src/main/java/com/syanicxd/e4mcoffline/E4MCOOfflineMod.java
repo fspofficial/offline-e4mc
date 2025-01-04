@@ -9,6 +9,7 @@ public class E4MCOOfflineMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("E4MC Offline Mod initialized");
+        LOGGER.info("[e4mc-offline] E4MC Offline Reborn Mod initialized");
+        LOGGER.info("[e4mc-offline] Don't forget to say thanks to SyanicXD :)");
     }
 }

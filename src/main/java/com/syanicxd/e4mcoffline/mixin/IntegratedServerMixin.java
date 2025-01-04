@@ -20,10 +20,17 @@ public class IntegratedServerMixin {
 
         // Notify stuff
         MinecraftServer server = (MinecraftServer)(Object)this;
-        String message = "[§coffline-e4mc§r] Server allowed offline/cracked players to join §aSuccessfully§r";
+        String message = "§8[§coffline-e4mc§8]§r Changed §n§6Online Mode§r to False §aSuccessfully§r";
+
+        Text textMessage = createText(message);
 
         for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
-            player.sendMessage(Text.literal(message), false);
+            player.sendMessage(textMessage, false);
         }
+    }
+
+    private Text createText(String message) {
+        // Create a Text object compatible with all versions
+        return Text.of(message); // This is compatible with both older and newer versions
     }
 }

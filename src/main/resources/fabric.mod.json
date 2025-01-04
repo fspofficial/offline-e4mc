@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "e4mc-offline",
-	"version": "1.0.1",
-	"name": "E4MC Offline Mod",
-	"description": "Simply allows Offline/Cracked players to join your e4mc server.",
+	"version": "2.0.0",
+	"name": "E4MC Offline Reborn",
+	"description": "Literally gives more control over your hosted world.",
 	"authors": [
 		{
 		  "name": "SyanicXD",
@@ -31,6 +31,6 @@
 	],
 	"depends": {
 	  "fabric": "*",
-	  "minecraft": ">=1.20  <=1.21.3"
+	  "minecraft": ">=1.18"
 	}
 }
