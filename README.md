@@ -1,4 +1,4 @@
-# Offline e4mc (REBORN)
+# <img src="https://raw.githubusercontent.com/fspofficial/offline-e4mc/refs/heads/main/src/main/resources/assets/e4mc-offline/icon.png" alt="icon" width="50" height="50" /> Offline e4mc (REBORN)
 > This repo contains source code of mod e4mc offline by **SyanicXD**
 ### *This mod can be used with [e4mc mod](https://modrinth.com/mod/e4mc). Not affiliated with e4mc.
 
